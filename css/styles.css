@@ -1,0 +1,158 @@
+body {
+    background-color: #e0d4c8;
+    font-family: "Tlwg Typewriter";
+}
+
+/* main page */
+
+#recipe {
+    background-color: #ffaa4f;
+    color: #634422;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: Papyrus,fantasy;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px;
+}
+
+#main-image {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    
+}
+
+.main-list {
+    width: 600px;
+    background-color: #ffe1c2;
+    border-left: 5px solid #ffaa4f;
+    padding: 10px 20px;
+    list-style-type: none;
+    list-style-position: inside;
+    margin-left: 10%;
+}
+
+.main-recipes {
+    width: 400px;
+    height: 25px;
+    background-color: #ffc78b;
+    padding: 15px;
+    margin-left: 3%;
+    font-family: "Tlwg Typewriter";
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* Layout's recipe */
+
+.dishes {
+    background-color: #ffaa4f;
+    color: #634422;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: Papyrus,fantasy;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px;
+}
+
+.dish-text {
+    background-color: #ffe1c2;
+    color: black;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-indent: 50px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.ingredients-steps {
+    background-color: #ffe1c2;
+    color: black;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-indent: 25px;
+}
+
+.ingredient-list {
+    background-color: #ffc78b;
+    width: 500px;
+    border-left: 5px solid #ffaa4f;
+    padding: 20px 20px;
+    list-style-position: inside;
+}
+
+.steps-list  {
+    list-style-position: inside;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.steps-list li {
+    padding: 15px 0px;
+}
+
+
+
+/* Images scale*/
+
+#waffle-img {
+    width: 259px;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pudding {
+    max-width: auto;    
+    max-height: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#brigadeiro-img  {
+    max-width: auto;    
+    max-height: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Button */
+
+.button {
+    background-color: #ffaa4f;
+    border: none;
+    color: #634422;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    display: inline-block;   
+}
